@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, useNavigate, Navigate } from 'react-router-dom';
 
 // Importe seus componentes
-import LoginScreen from './LoginScreen';
-import RegistroOcorrencias from './RegistroOcorrencias';
-import AcompanhamentoOcorrencia from './AcompanhamentoOcorrencia';
-import ListaOcorrencias from './ListaOcorrencias'; // Importe o novo componente
+import LoginScreen from './pages/login';
+import RegistroOcorrencias from './pages/ocorrencia';
+import AcompanhamentoOcorrencia from './pages/acompanhamento';
+import ListaOcorrencias from './pages/listagem'; // Importe o novo componente
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false); // Estado de login
