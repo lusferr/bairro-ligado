@@ -1,0 +1,109 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build files
+build/
+dist/
+.vite/ # Para projetos Vite
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+
+# macOS
+.DS_Store
+
+# npm package manager cache
+.npm/
+
+# Yarn cache
+.yarn/cache/
+.pnp/
+.pnp.js
+
+# misc
+.web/
+.cache/
+.next/ # Para projetos Next.js (se você estiver usando)
+out/ # Para projetos Next.js (se você estiver usando)
+coverage/ # Diretório de cobertura de testes
+
+# Thumbnails
+.thumbnails/
+
+# Local history files
+.history/
+
+# IDE-specific files
+*.iml
+
+# Test files
+*.spec.js
+*.test.js
+*.spec.jsx
+*.test.jsx
+*.spec.ts
+*.test.ts
+*.spec.tsx
+*.test.tsx
+
+# VS Code local history
+.vscode-test/
+
+# Storybook (if used)
+.storybook/out/
+
+# Cypress (if used)
+cypress/videos/
+cypress/screenshots/
+
+# SvelteKit (if used)
+.svelte-kit/
+
+# Nuxt.js (if used)
+.nuxt/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor config
+.editorconfig
+
+# Local development server
+.port
+
+# Docker
+Dockerfile.local
+.dockerignore
+
+# Netlify (if used)
+.netlify/
+
+# Vercel (if used)
+.vercel/
+
+# Any other OS generated files
+Thumbs.db
